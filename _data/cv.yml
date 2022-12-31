@@ -3,8 +3,8 @@
   contents:
     - name: Full Name
       value: Duc Nguyen
-    - name: Languages
-      value: English, Vietnamese
+    - name: Address
+      value: SF Bay Area
 
 - title: Education
   type: time_table
