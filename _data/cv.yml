@@ -9,81 +9,62 @@
 - title: Education
   type: time_table
   contents:
-    - title: Bachelor of Science
+    - title: B.S. in Electrical Engineering and Computer Sciences
       institution: University of California, Berkeley
-      year: 2021 - Present
+      year: Sep 2021 - Present
       description:
-        - title: GPA 3.8.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - "GPA: 3.81"
+        - Expected Spring 2024
+        - <u>Relevant Coursework:</u> Data Structures & Algorithms, Computer Architecture, Computer Networking & Security, Database Management Systems, Operating Systems and Systems Programming, Optimization Models in Engineering.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Undergrad Researcher
+      institution: Simons Institute for the Theory of Computing
+      year: Oct 2022 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Assisting Dr. Dor Bitan, a Postdoctoral Researcher in EECS at UC Berkeley, with constructing a zero-knowledge proof (ZKP) system for legal and privacy applications.
+        - Developing a mobile application in Flutter that allows users to prove and verify using ZKP principles with memory-optimized algorithms while ensuring end-to-end security based on cryptography.
+    - title: Laboratory Tutor
+      institution: University of California, Berkeley
+      year: Aug 2022 - Dec 2022
       description:
-        - Description 1.
-        - Description 2.
+        - "Supported 50 students with lab assignments/conceptual questions over 11 weekly labs offered by the course EECS 16A: Designing Information Devices and Systems I at UC Berkeley."
+        - Debugged weekly labs and contribute valuable feedback for the course staff.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Most Featured Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Rookie Database
+      year: Sep 2022 - Dec 2022
+      description: 
+        - Engineered a fully functional relational database which supports concurrency and has a recovery process in case of crashes. Integrated indexes plus a query optimizer to decrease latency and increase throughput of multiple database queries.
+        - <u>Tech stack:</u> Java, JUnit, Multigranularity Locking, ARIES Recovery Algorithm, B+ Tree Index, System R Optimizer.
+    - title: Secure File Sharing
+      year: Oct 2022 - Nov 2022
+      description:
+        - Designed and implemented the client application for an end-to-end secure file sharing system written in Go using symmetric and asymmetric cryptographic algorithms. The security is strong enough to defend against all in-path, on-path, and off-path adversaries.
+        - <u>Tech stack:</u> Go, Ginkgo, Symmetric Cryptographic Algorithms, Asymmetric Cryptographic Algorithms.
+    - title: Sentient
+      year: Oct 2022 - Oct 2022
+      description:
+        - Developed a web app in Python that can retrieve and analyze 10-K reports filed by all U.S. companies to the U.S. Securities and Exchange Commission. Constructed from scratch a data-processing pipeline for sentiment analysis to generate results and suggest high-potential company portfolios to investors.
+        - <u>Tech stack:</u> Python, Web Scraping, Flask API, Data Science, Sentiment Analysis.
+    - title: NumC
+      year: July 2022 - Aug 2022
+      description:
+        - Coded a library written in C that can perform mathematical and logical operations on arrays and matrices. Speeded up all matrix operations by at least 56.5 times by utilizing algorithmic optimization, data-level parallelism, and thread-level parallelism.
+        - <u>Tech stack:</u> C, CUnit, Intel Intrinsics, OpenMP, Algorithms, Object-Oriented Design.
 
-- title: Honors and Awards
+- title: Honors & Awards
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - year: Apr 2022
+      title: Transfer Student Pathways to Graduate School Scholarship
+      description:
+        - Sponsored by National Science Foundation and UC Berkeley Engineering to support students with excellent academic merits who want to pursue graduate school.
+    - year: Aug 2022
+      title: Berkeley Undergraduate Scholarship
+      description:
+        - Awarded to UC Berkeley undergraduates with 3.5 GPA or better.
