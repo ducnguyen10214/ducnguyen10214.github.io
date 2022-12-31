@@ -2,24 +2,21 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <em>San Francisco Bay Area, CA</em>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: ducnguyen.png
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I’m a junior at UC Berkeley with a strong passion in programming and engineering, especially in backend engineering, e.g. distributed systems, database management systems, and computer security. As an ambitious and motivated individual, I yearn for opportunities to broaden my horizons, make self-improvements through multiple challenges as well as contribute to the future of technology and the humanity.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Besides studying, in my free time, I enjoy building projects, solving coding problems, and reading documentations of some applications that I recently have my eyes on!
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+As of right now, I’m actively looking for opportunities to challenge myself in a professional working environment where I can make contributions based on my capabilities and extend my perspective about the software engineering industry.
